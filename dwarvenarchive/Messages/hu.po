@@ -1,0 +1,53 @@
+# Hungarian messages for Archive.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# Andras Mohari <mayday@mailpont.hu>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive 2.0\n"
+"POT-Creation-Date: 2006-03-12 13:05+CET\n"
+"PO-Revision-Date: 2006-03-12 14:08+0100\n"
+"Last-Translator: Andras Mohari <mayday@mailpont.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Poedit-Language: Hungarian\n"
+
+#: AppRun:13
+msgid "Drag a file or directory onto Archive to archive it. Drag an archive onto it to extract."
+msgstr "A betömörítéshez dobj az Archive-ra egy fájlt vagy könyvtárat. A kitömörítéshez dobj rá egy archív fájlt."
+
+#: AppRun:24
+msgid "Sorry, I can only extract/archive local files."
+msgstr "Sajnos csak helyi fájlokat lehet ki- és betömöríteni."
+
+#: box.py:42
+msgid "_Delete file afterwards?"
+msgstr "_Fájl törlése a művelet végeztével?"
+
+#: formats.py:47
+msgid "Compress as .%s"
+msgstr ".%s fájlba tömörítés"
+
+#: formats.py:58
+msgid "Decompress .%s"
+msgstr ".%s kitömörítése"
+
+#: formats.py:70
+msgid "Extract from a .%s"
+msgstr "Kibontás .%s fájlból"
+
+#: formats.py:73
+msgid "This operation creates a directory, so you have to drag to a filer window on the local machine"
+msgstr "Ez a művelet létrehoz egy könyvtárat, a fájlt tehát a helyi gép könyvtárablakába kell dobni"
+
+#: formats.py:79
+msgid "'%s' already exists and is not a directory!"
+msgstr "\"%s\" már létezik és nem könyvtár!"
+
+#: formats.py:127
+msgid "Create .%s archive"
+msgstr ".%s archívum létrehozása"
+

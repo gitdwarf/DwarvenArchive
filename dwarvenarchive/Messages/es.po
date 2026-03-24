@@ -1,0 +1,86 @@
+# es translation of Archive.
+# Copyright (C) 2006 ORGANIZATION
+# Pablo Molino Gonzalez <vonpmg@e-milio.com>, 2006.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive 1.9.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Dec  2 12:50:29 2003\n"
+"PO-Revision-Date: 2006-03-13 18:55+0100\n"
+"Last-Translator: Juan Carlos Jiménez García <jigarNOSPAM@alumni.uv.es>\n"
+"Language-Team: es <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: AppRun:11
+msgid ""
+"Drag a file or directory onto Archive to archive it. Drag an archive onto it "
+"to extract."
+msgstr ""
+"Arrastre un fichero o directorio sobre Archive para comprimirlo. Arrastre un "
+"archivo sobre él para descomprimirlo."
+
+#: AppRun:22
+msgid "Sorry, I can only extract/archive local files."
+msgstr "Lo siento, sólo puedo comprimir/descomprimir archivos locales."
+
+#: box.py:34
+msgid "Delete file afterwards?"
+msgstr "¿Borrar el fichero al finalizar?"
+
+#: formats.py:46
+msgid "Compress as .%s"
+msgstr "Comprimir como .%s"
+
+#: formats.py:57
+msgid "Decompress .%s"
+msgstr "Descomprimir como .%s"
+
+#: formats.py:69
+msgid "Extract from a .%s"
+msgstr "Extraer desde un .%s"
+
+#: formats.py:72
+msgid ""
+"This operation creates a directory, so you have to drag to a filer window on "
+"the local machine"
+msgstr ""
+"Esta operación crea un directorio, asi que debe arrastrarlo a una ventana "
+"del gestor de archivos de la máquina local"
+
+#: formats.py:78
+msgid "'%s' already exists and is not a directory!"
+msgstr "¡'%s' ya existe y no es un directorio!"
+
+#: formats.py:126
+msgid "Create .%s archive"
+msgstr "Crear un archivo .%s"
+
+#: support.py:10
+msgid "Sorry, this version of Archive requires ROX-Lib 1.9.3 or later"
+msgstr "Lo siento, esta versión de Archive requiere ROX-Lib 1.9.3 o posterior"
+
+#: support.py:20
+msgid "Operation aborted at user's request"
+msgstr "Operación cancelada por petición del usuario"
+
+#: support.py:114
+msgid ""
+"Errors from command '%s':\n"
+"%s"
+msgstr ""
+"Errores desde el comando '%s':\n"
+"%s"
+
+#: support.py:116
+msgid "Command '%s' returned an error code!"
+msgstr "¡El comando '%s' devolvió un código de error!"
+
+#~ msgid "Warning: %s not in ops list!"
+#~ msgstr "Aviso: %s no está en la lista de opciones"
+
+#~ msgid "Always copy stdin!"
+#~ msgstr "Siempre copiar entrada estandard!"

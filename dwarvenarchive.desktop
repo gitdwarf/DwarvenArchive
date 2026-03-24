@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=DwarvenArchive
+Comment=Create and extract archives
+Exec=dwarvenarchive %f
+Icon=dwarvenarchive
+MimeType=application/zip;application/x-tar;application/x-compressed-tar;application/x-bzip-compressed-tar;application/x-xz-compressed-tar;application/x-7z-compressed;application/x-rar;application/x-lha;application/x-jar;inode/directory;
+Categories=Utility;Archiving;Compression;
+Terminal=false
+StartupNotify=false

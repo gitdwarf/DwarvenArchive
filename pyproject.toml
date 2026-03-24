@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwarvenarchive"
+version = "1.0.0"
+description = "GTK4 archive manager. Pure Python3/GTK4. Fully X11 and Wayland native. Inspired by rox archive. Part of the DwarvenSuite."
+readme = "README.md"
+license = "GPL-2.0-or-later"
+requires-python = ">=3.9"
+keywords = [
+    "gtk4", "archive", "tar", "zip", "compression", "extraction",
+    "desktop", "linux", "wayland", "x11"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Desktop Environment",
+    "Topic :: System :: Archiving",
+]
+
+[project.urls]
+Homepage = "https://github.com/gitdwarf/DwarvenArchive"
+Repository = "https://github.com/gitdwarf/DwarvenArchive"
+
+[project.scripts]
+dwarvenarchive = "dwarvenarchive.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+dwarvenarchive = [
+    "Messages/*.po",
+    "Messages/*.gmo",
+    "_icon.svg",
+]
+
+[tool.setuptools.data-files]
+"share/icons/hicolor/scalable/apps" = ["dwarvenarchive.svg"]
+"share/applications" = ["dwarvenarchive.desktop"]

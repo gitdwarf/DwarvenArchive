@@ -1,0 +1,6 @@
+include README.md
+include pyproject.toml
+recursive-include dwarvenarchive/Messages *.po *.gmo
+recursive-include dwarvenarchive *.py
+include dwarvenarchive.desktop
+include dwarvenarchive.svg
