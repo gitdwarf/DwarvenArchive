@@ -1,0 +1,62 @@
+# fr translation of Archive.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-25 16:42+CEST\n"
+"PO-Revision-Date: 2006-07-30 11:44+0200\n"
+"Last-Translator: Bernard Jungen <bjung50169@euphonynet.be>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AppRun:12
+msgid ""
+"Drag a file or directory onto Archive to archive it. Drag an archive onto it "
+"to extract."
+msgstr ""
+"Glissez-déposez ici un fichier ou un répertoire pour l'archiver. Glissez-"
+"déposez ici une archive pour l'extraire."
+
+#: AppRun:24
+msgid "Sorry, I can only extract/archive local files."
+msgstr "Désolé, je ne peux qu'extraire ou archiver des fichiers locaux."
+
+#: box.py:42
+msgid "_Delete file afterwards?"
+msgstr "_Détruire le fichier après?"
+
+#: formats.py:47
+msgid "Compress as .%s"
+msgstr "Compresser en .%s"
+
+#: formats.py:58
+msgid "Decompress .%s"
+msgstr "Décompresser en .%s"
+
+#: formats.py:70
+msgid "Extract from a .%s"
+msgstr "Extraire d'un .%s"
+
+#: formats.py:73
+msgid ""
+"This operation creates a directory, so you have to drag to a filer window on "
+"the local machine"
+msgstr ""
+"Cette opération crée un répertoire, ainsi vous devez faire un glisser-"
+"déposer vers la fenêtre d'un gestionnaire de fichiers sur un ordinateur "
+"local."
+
+#: formats.py:79
+msgid "'%s' already exists and is not a directory!"
+msgstr "'%s' existe déjà et n'est pas un répertoire!"
+
+#: formats.py:127
+msgid "Create .%s archive"
+msgstr "Créer une archive .%s"
+
+msgid "Sorry, this version of Archive requires ROX-Lib 1.9.3 or later"
+msgstr "Désolé, cette version d'Archive requiert ROX-Lib 1.9.3 ou supérieur."

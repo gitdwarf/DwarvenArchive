@@ -12,15 +12,19 @@ No second dialog. No hunting through menus. One window, one click.
 
 Works via right-click in any file manager that supports Open With or custom actions.
 
+Each launch is fully independent -- multiple concurrent archive and extraction operations work without interference, just like ROX Archive.
+
 ## Supported formats
 
-**Create archives** (from a folder or file): ZIP (password), Tar+gzip, Tar+bzip2, Tar+xz, Tar+lzma, Tar, 7-Zip (password), JAR (password), LHA
+**Create archives** (from a folder, file, or multiple files/folders): ZIP (password), Tar+gzip, Tar+bzip2, Tar+xz, Tar+lzma, Tar, 7-Zip (password), JAR (password), LHA
 
 **Compress single files**: gzip, bzip2, xz, lzma, UUencode
 
 **Extract**: ZIP, TGZ, TAR.BZ2, TAR.Z, TLZ, TXZ, RAR, ACE, TAR, RPM, CPIO, DEB, JAR, LHA, 7Z
 
 Password-protected extraction: ZIP, JAR, 7Z
+
+Formats requiring tools that are not installed simply do not appear in the format list.
 
 ## Installation
 
@@ -33,23 +37,23 @@ On first launch, DwarvenArchive automatically installs its icon and desktop file
 ## Usage
 
 ```bash
-dwarvenarchive /path/to/folder        # Archive a directory
-dwarvenarchive /path/to/file.txt      # Archive a file
-dwarvenarchive /path/to/archive.tgz  # Extract an archive
-dwarvenarchive -                      # Read from stdin
+dwarvenarchive /path/to/folder           # Archive a directory
+dwarvenarchive file1.txt file2.png dir/  # Archive multiple files/folders together
+dwarvenarchive /path/to/archive.tgz     # Extract an archive
+dwarvenarchive -                         # Read from stdin
 ```
 
-When launched with a directory -- presents archive creation dialog.
-When launched with a file -- presents extraction or compression dialog depending on type.
-When launched with no arguments -- shows usage info.
+When launched with a directory or file -- presents the archive/extraction dialog.
+When launched with multiple paths -- presents archive creation dialog for all of them combined, using the first filename as the output name.
+When launched with no arguments -- shows the launch window. From there you can drag and drop one or more files, folders, or archives directly onto the window. Files accumulate as you drop them; the operation starts automatically once drops stop arriving.
+
+Drag and drop is compatible with GTK2, GTK3, and GTK4 file managers (tested with ROXFiler and Thunar).
 
 ## Dependencies
 
 Required: Python 3.9+, GTK 4.0, PyGObject (python3-gi)
 
 Optional (enables additional formats): gzip, bzip2, xz, lzma, tar (usually pre-installed), zip/unzip, 7z (p7zip-full), unrar, unace, lha (lhasa), rpm2cpio
-
-DwarvenArchive gracefully handles missing tools -- formats requiring unavailable tools simply don't appear in the format list.
 
 ## Part of DwarvenSuite
 

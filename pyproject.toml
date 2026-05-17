@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dwarvenarchive"
-version = "1.0.0"
+version = "1.1.0"
 description = "GTK4 archive manager. Pure Python3/GTK4. Fully X11 and Wayland native. Inspired by rox archive. Part of the DwarvenSuite."
 readme = "README.md"
 license = "GPL-2.0-or-later"
