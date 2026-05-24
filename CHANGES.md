@@ -1,5 +1,14 @@
 # DwarvenArchive Changelog
 
+## 1.1.1
+
+- Extraction errors now show a proper error dialog instead of silently
+  resetting to the start screen. Error message includes the failing command,
+  exit code, and stderr output.
+- Extraction of zips containing absolute paths or un-mappable filenames no
+  longer fails: unzip/unrar warning exit codes (1, 2) are treated as
+  non-fatal. Files extract correctly; warnings still appear in the terminal.
+
 ## 1.1.0
 
 - Multiple concurrent instances: each launch is now fully independent,

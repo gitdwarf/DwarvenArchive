@@ -1,0 +1,69 @@
+# Archive Chinese Translation.
+# Copyright @ 2003 Free Software Foundation, Inc.
+# Current translator: Babyfai Cheung, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive 1.9.4\n"
+"POT-Creation-Date: 2006-06-25 20:23+HKT\n"
+"PO-Revision-Date: 2006-06-25 19:43+0300\n"
+"Last-Translator: Babyfai Cheung<babyfai1@yahoo.com.hk>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AppRun:12
+msgid ""
+"Drag a file or directory onto Archive to archive it. Drag an archive onto it "
+"to extract."
+msgstr "把檔案或目錄拖放進 Archive 以壓縮. 亦可將壓縮檔拖放進以解壓"
+
+#: AppRun:23
+msgid "Sorry, I can only extract/archive local files."
+msgstr "只可解壓或壓縮本機的檔案."
+
+#: box.py:42
+msgid "_Delete file afterwards?"
+msgstr "完成後刪除檔案?(_D)"
+
+#: formats.py:47
+msgid "Compress as .%s"
+msgstr "將目標壓縮為 .%s"
+
+#: formats.py:58
+msgid "Decompress .%s"
+msgstr "將目標解壓 .%s"
+
+#: formats.py:70
+msgid "Extract from a .%s"
+msgstr "解壓出檔案從 .%s"
+
+#: formats.py:73
+msgid ""
+"This operation creates a directory, so you have to drag to a filer window on "
+"the local machine"
+msgstr "程序會建立一個新目錄,因此必須在本機的窗口中拖放."
+
+#: formats.py:79
+msgid "'%s' already exists and is not a directory!"
+msgstr "'%s' 已存在且並不是一個目錄!"
+
+#: formats.py:127
+msgid "Create .%s archive"
+msgstr "建立 .%s 壓縮檔"
+
+#~ msgid "Sorry, this version of Archive requires ROX-Lib 1.9.3 or later"
+#~ msgstr "此程式需要 ROX-Lib 1.9.3 或以上的版本"
+
+#~ msgid "Operation aborted at user's request"
+#~ msgstr "程序被用戶終結"
+
+#~ msgid ""
+#~ "Errors from command '%s':\n"
+#~ "%s"
+#~ msgstr ""
+#~ "錄得錯誤從指令 '%s':\n"
+#~ "%s"
+
+#~ msgid "Command '%s' returned an error code!"
+#~ msgstr "指令 '%s' 回傳錯誤碼!"

@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Archive 1.9.4\n"
+"POT-Creation-Date: Tue Dec  2 12:50:29 2003\n"
+"PO-Revision-Date: 2004-03-07 19:43+0300\n"
+"Last-Translator: Guido Schimmels <gushi@arcor.de>\n"
+"Language-Team: Guido Schimmels <gushi@arcor.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AppRun:11
+msgid "Drag a file or directory onto Archive to archive it. Drag an archive onto it to extract."
+msgstr "Ziehe eine Datei oder Verzeichnis auf Archive um ein Packet zu schnüren. Ziehe ein Archiv darauf, um es zu entpacken."
+
+#: AppRun:22
+msgid "Sorry, I can only extract/archive local files."
+msgstr "Auf Netzwerklaufwerken abgelegte Dateien können nicht verarbeitet werden."
+
+#: box.py:34
+msgid "Delete file afterwards?"
+msgstr "Datei anschließend entfernen?"
+
+#: formats.py:46
+msgid "Compress as .%s"
+msgstr "Packen als .%s"
+
+#: formats.py:57
+msgid "Decompress .%s"
+msgstr "Entpacken als .%s"
+
+#: formats.py:69
+msgid "Extract from a .%s"
+msgstr "Entpacken aus einem .%s"
+
+#: formats.py:72
+msgid "This operation creates a directory, so you have to drag to a filer window on the local machine"
+msgstr "Bei dieser Aktion wird ein Verzeichnis angelegt, daher muß die Ablage auf ein lokales Dateifenster erfolgen."
+
+#: formats.py:78
+msgid "'%s' already exists and is not a directory!"
+msgstr "¡'%s' existiert bereits und ist kein Verzeichnis!"
+
+#: formats.py:126
+msgid "Create .%s archive"
+msgstr "Erstelle ein .%s Archiv"
+
+#: support.py:10
+msgid "Sorry, this version of Archive requires ROX-Lib 1.9.3 or later"
+msgstr "Archive benötigt ROX-Lib 1.9.3 oder neuer"
+
+#: support.py:20
+msgid "Operation aborted at user's request"
+msgstr "Aktion durch Benutzereingriff abgebrochen"
+
+#: support.py:114
+msgid ""
+"Errors from command '%s':\n"
+"%s"
+msgstr ""
+"Fehler von Befehl '%s':\n"
+"%s"
+
+#: support.py:116
+msgid "Command '%s' returned an error code!"
+msgstr "Befehl '%s' meldet einen Fehler!"
+

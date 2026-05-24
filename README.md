@@ -14,6 +14,8 @@ Works via right-click in any file manager that supports Open With or custom acti
 
 Each launch is fully independent -- multiple concurrent archive and extraction operations work without interference, just like ROX Archive.
 
+If an operation fails, a dialog shows the error -- including the exact command, exit code, and tool output -- so you know what went wrong.
+
 ## Supported formats
 
 **Create archives** (from a folder, file, or multiple files/folders): ZIP (password), Tar+gzip, Tar+bzip2, Tar+xz, Tar+lzma, Tar, 7-Zip (password), JAR (password), LHA
