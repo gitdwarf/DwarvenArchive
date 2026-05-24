@@ -1,5 +1,9 @@
 # DwarvenArchive Changelog
 
+## 1.1.2
+
+- Checkbox label corrected to "Delete source afterwards?" (was "Delete file afterwards?").
+
 ## 1.1.1
 
 - Extraction errors now show a proper error dialog instead of silently
